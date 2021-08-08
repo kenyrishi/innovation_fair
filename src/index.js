@@ -4,16 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { Button } from 'element-react'; //element stuff
-import 'element-theme-default';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
-
-  //ReactDOM.render(<Button type="primary">Hello</Button>, document.getElementById('app')); //example of element usage
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
